@@ -1,6 +1,10 @@
 # Daddy_Melquiades_regueton_generator
 Me llamo Melquíades y os voy a enseñar a Generar en un click una canción de regatón. Lol.. 
 
+<br>Cada vez que ejecutes el archivo "java elMelquiadesGeneratol.class" se genera un nuevo Estribillo y Estrofa de forma aleatoria.
+
+<br>Para la aleatoriedad se ha usado la funcion generica "random()", se puede mejorar.
+
 <br>El presente script fue creado con intención experimental y de aprendizaje. Este script fue copiado con pequeños ajustes del libro Head First Java pag 16 cap 1. El presente script esta escrito en java.
 
 <br>Para ejecutarlo solo guarda el archivo "elMelquiadesGeneratol.class" en una carpeta en el lugar que tu desees.
@@ -11,4 +15,6 @@ Me llamo Melquíades y os voy a enseñar a Generar en un click una canción de r
 
 <br>Ejecuta en la terminal el comando "java elMelquiadesGeneratol.class"
 
-Cualquier dudita busca en google "instalar java en linux", "instalar java en windows", "compilar y ejecutar java en windows"
+<br>Cualquier dudita busca en google "instalar java en linux", "instalar java en windows", "compilar y ejecutar java en windows".
+
+<br>Desconozco si he violado algunos derechos de autor haciendo uso del presente script.
