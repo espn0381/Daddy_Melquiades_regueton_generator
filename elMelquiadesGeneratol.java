@@ -3,7 +3,7 @@ public class elMelquiadesGeneratol {
 
 	public static void main (String[] args){
 
-	//make three sets of words to chose from. add your own!
+	//make Six sets of words to chose from. add your own!
 	String[] wordListOne = {"MAMI", "BEBE", "PRINCESS", "MAMI"};
 	String[] wordListTwo = {"YO QUIERO", "YO PUEDO", "YO VENGO A", "VOY A"};
 	String[] wordListThree = {"ENCENDELTE","AMALTE","LIGAL","JUGAL"};
@@ -22,7 +22,7 @@ public class elMelquiadesGeneratol {
 	int fourLength = wordListFour.length;
 	int fiveLength = wordListFive.length;
 	int sixLength = wordListSix.length;
-	//generate three random numbers
+	//generate seven random numbers
 	int rand0 = (int)(Math.random() * ceroLength);
 	int rand1 = (int)(Math.random() * oneLength);
 	int rand2 = (int)(Math.random() * twoLength);
@@ -32,9 +32,9 @@ public class elMelquiadesGeneratol {
 	int rand6 = (int)(Math.random() * sixLength);
 	//now build a phrase
 	String phrase = wordListOne[rand1] + " " +wordListTwo[rand2]+" "+wordListThree[rand3]+" "+wordListFour[rand4]+" "+wordListFive[rand5]+" "+wordListSix[rand6];
-	//print out phrase selecting random phrase of one array.
+	//print out a phrase selecting a random word of one array.
 	System.out.println("Estribillo Generado: " + phrase);
-	//print out phrase selecting random array of six arrays.
+	//print out phrase selecting a word of a random array of six arrays.
 	System.out.println("Estrofa Totalmente Aleatoria Generada: " + ray[rand0][rand1] + " " + ray[rand6][rand5] + " " + ray[rand4][rand6] + " " + ray[rand3][rand4] + " " + ray[rand5][rand6] + " " + ray[rand2][rand1]);
 	System.out.println("Thanks for use elMelquiadesGeneratol...");
 }
