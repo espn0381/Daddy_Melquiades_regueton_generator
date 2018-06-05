@@ -4,7 +4,7 @@ public class elMelquiadesGeneratol {
 	public static void main (String[] args){
 
 	//make three sets of words to chose from. add your own!
-	String[] wordListOne = {"MAMI", "BEBE", "PRINCESS", "MAMI"};
+	String[] wordListOne = {"MAMI", "BEBE", "PRINCESS", "MAMI"}; //* mami dos veces por que en el regeton se repite mucho mami*/
 	String[] wordListTwo = {"YO QUIERO", "YO PUEDO", "YO VENGO A", "VOY A"};
 	String[] wordListThree = {"ENCENDELTE","AMALTE","LIGAL","JUGAL"};
 	String[] wordListFour = {"SUAVE","LENTO","RAPIDO","FUELTE"};
@@ -39,14 +39,11 @@ public class elMelquiadesGeneratol {
 	System.out.println("Estrofa Totalmente Aleatoria Generada: " + ray[rand0][rand1] + " ♪ ♫ ♩ ♬ " + ray[rand6][rand5] + " ♪ ♫ ♩ ♬ " + ray[rand4][rand6] + " ♪ ♫ ♩ ♬ " + ray[rand3][rand4] + " ♪ ♫ ♩ ♬ " + ray[rand5][rand6] + " ♪ ♫ ♩ ♬ " + ray[rand2][rand1] + " ♪ ♫ ♩ ♬ ");
 	System.out.println("Thanks for use elMelquiadesGeneratol...");
 
-
-java.awt.Toolkit.getDefaultToolkit().beep();  
-java.awt.Toolkit.getDefaultToolkit().beep();  
-java.awt.Toolkit.getDefaultToolkit().beep();  
-java.awt.Toolkit.getDefaultToolkit().beep();  
+ 
 
 
 
 }
 
 }
+ 
