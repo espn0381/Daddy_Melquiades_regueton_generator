@@ -1,8 +1,8 @@
 # Chiste viejo, viejo, viejo, pero Bueno, Bueno, Bueno.
-# Daddy_Melquiades_regueton_generator
-Me llamo Melquíades y os voy a enseñar a Generar en un click una canción de regatón. Lol.. 
+# Daddy_Melquiades_regueton_lyric_generatol
+Me llamo Melquíades y os voy a enseñar a Generar en un click la letra de una canción de regatón. Lol.. 
 
-<br>Cada vez que ejecutes el archivo "java elMelquiadesGeneratol.class" se genera un nuevo Estribillo y Estrofa de forma aleatoria.
+<br>Cada vez que ejecutes la instruccion "java elMelquiadesGeneratol.class" se genera un nuevo Estribillo y Estrofa de forma aleatoria.
 
 <br>Para la aleatoriedad se ha usado la funcion generica "random()", se puede mejorar.
 
@@ -16,6 +16,6 @@ Me llamo Melquíades y os voy a enseñar a Generar en un click una canción de r
 
 <br>Ejecuta en la terminal el comando "java elMelquiadesGeneratol.class"
 
-<br>Cualquier dudita busca en google "instalar java en linux", "instalar java en windows", "compilar y ejecutar java en windows".
+<br>Cualquier dudita busca en google "instalar java en linux", "instalar java en windows", "compilar y ejecutar java en windows o linux".
 
-<br>Desconozco si he violado algunos derechos de autor haciendo uso del presente script.
+<br>Desconozco si he violado algunos derechos de autor haciendo uso del presente script y su contenido, disculpe por las molestias causadas.
