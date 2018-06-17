@@ -19,3 +19,5 @@ Me llamo Melquíades y os voy a enseñar a Generar en un click la letra de una c
 <br>Cualquier dudita busca en google "instalar java en linux", "instalar java en windows", "compilar y ejecutar java en windows o linux".
 
 <br>Desconozco si he violado algunos derechos de autor haciendo uso del presente script y su contenido, disculpe por las molestias causadas.
+
+NOTA_IMPORTANTE: El resultado generado puede mejorarse por alguien con conocimientos de musica. El presente redactor del codigo no tiene p.Idea como escribir la letra de una cancion.
