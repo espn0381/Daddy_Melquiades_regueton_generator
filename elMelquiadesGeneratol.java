@@ -8,7 +8,7 @@ public class elMelquiadesGeneratol {
 	String[] wordListTwo = {"YO QUIERO", "YO PUEDO", "YO VENGO A", "VOY A"};
 	String[] wordListThree = {"ENCENDELTE","AMALTE","LIGAL","JUGAL"};
 	String[] wordListFour = {"SUAVE","LENTO","RAPIDO","FUELTE"};
-	String[] wordListFive = {"HASTA QUE SALGA EL SOL","TODA LA NOCHE","HASTA EL AMANECER","TODO EL DIA"};
+	String[] wordListFive = {"HASTA QUE SALGA EL SOL","TODA LA NOCHE","HASTA EL AMANECEL","TODO EL DIA"};
         String[] wordListSix = {"SIN ANESTECIA", "SIN COMPROMISO", "FEIS TO FEIS", "SIN MIEDO"};
 	
 	//random array
@@ -30,20 +30,44 @@ public class elMelquiadesGeneratol {
 	int rand4 = (int)(Math.random() * fourLength);
 	int rand5 = (int)(Math.random() * fiveLength);
 	int rand6 = (int)(Math.random() * sixLength);
-	//now build a phrase
-	String phrase = wordListOne[rand1] + " " +wordListTwo[rand2]+" "+wordListThree[rand3]+" "+wordListFour[rand4]+" "+wordListFive[rand5]+" "+wordListSix[rand6];
+
+//now build a Introduction.
+	String introduccion = wordListOne[rand1] + "\n" +wordListTwo[rand2]+ " " 
+	+wordListThree[rand3]+"  "+wordListFour[rand4]+ "\n" 
+	+wordListFive[rand5]+"\n"+wordListSix[rand6];
 	//print out phrase selecting random phrase of one array.
-	System.out.println("Estrofa Generada: " + phrase);
-        System.out.println("Estribillo Generado: " +" "+ wordListFive[rand5]+" "+ wordListFour[rand4]+" "+ wordListFour[rand4]+" "+ wordListFour[rand4]+" "+ wordListFour[rand4]+" "+ wordListFour[rand4]);
-	//print out phrase selecting random array of six arrays.
-	System.out.println("Estrofa Totalmente Aleatoria Generada: " + ray[rand0][rand1] + " ♪ ♫ ♩ ♬ " + ray[rand6][rand5] + " ♪ ♫ ♩ ♬ " + ray[rand4][rand6] + " ♪ ♫ ♩ ♬ " + ray[rand3][rand4] + " ♪ ♫ ♩ ♬ " + ray[rand5][rand6] + " ♪ ♫ ♩ ♬ " + ray[rand2][rand1] + " ♪ ♫ ♩ ♬ ");
+	System.out.println("     I \n" +introduccion+ "\n");
+
+
+//now build the tema_estrofa.
+	String tema_estrofa = wordListOne[rand1]+ "... " +wordListFour[rand4]+"\n" 
+	+wordListSix[rand6]+"\n" +wordListFive[rand5]; 
+	//print out phrase selecting random phrase of one array. 
+	System.out.println("     II \n" + tema_estrofa+"\n");
+
+
+//now build a interludio.
+         String interludio = wordListOne[rand1] + " " +wordListTwo[rand2]+ "\n " 
+         +wordListThree[rand3]+" "+wordListFive[rand5]+"\n ";
+        //print out phrase selecting random phrase of one array.
+        System.out.println("     III \n" + interludio+"\n");
+
+ //now build a estribillo.
+         String estribillo = wordListSix[rand6]+ " " +wordListFour[rand4]+"\n"+wordListFive[rand5]+ " \n "+ wordListSix[rand6]+" "+wordListOne[rand1];
+        //print out phrase selecting random phrase of one array.
+        System.out.println("     IV \n" + estribillo+"\n");
+
+
+ //now build a coda.
+         String coda = wordListTwo[rand2]+ " " 
+         +wordListThree[rand3]+"\n "+wordListFour[rand4]+ " " 
+         +wordListFive[rand5]+"\n "+wordListOne[rand1];
+        //print out phrase selecting random phrase of one array.
+        System.out.println("      V \n" + coda+"\n");
+
+
 	System.out.println("Thanks for use elMelquiadesGeneratol...");
 
- 
-
-
-
-		
 }
 
 }
